@@ -5,8 +5,6 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Use /Collab-SYNC/ as base when building for GitHub Pages
-    base: process.env.GITHUB_PAGES === 'true' ? '/Collab-SYNC/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
@@ -15,7 +13,7 @@ export default defineConfig(() => {
     },
     server: {
       // HMR is disabled in Collab-SYNC via DISABLE_HMR env var.
-      // Do not modify — file watching is disabled to prevent flickering during agent edits.
+      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
       // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
