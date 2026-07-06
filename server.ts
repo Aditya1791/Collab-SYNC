@@ -13,7 +13,7 @@ import { handleBoardSockets } from './server/sockets/boardSockets';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
   const httpServer = createServer(app);
 
   // Set up socket.io
