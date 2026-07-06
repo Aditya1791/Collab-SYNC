@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "username": "Aditya",
+      "email": "swainaditya85@gmail.com",
+      "passwordHash": "hashed:@RAdi8891!",
+      "color": "#818cf8",
+      "id": "sbj3ljbqmkss3rvaae6qlk",
+      "avatarUrl": "#818cf8"
+    }
+  ],
+  "workspaces": [
+    {
+      "name": "Aditya",
+      "description": "Test",
+      "ownerId": "sbj3ljbqmkss3rvaae6qlk",
+      "members": [
+        {
+          "userId": "sbj3ljbqmkss3rvaae6qlk",
+          "role": "admin"
+        }
+      ],
+      "id": "lrno9nf2vbl8xnuta73w7i",
+      "createdAt": "2026-07-06T08:39:30.962Z",
+      "updatedAt": "2026-07-06T08:39:30.962Z"
+    }
+  ],
+  "boards": [
+    {
+      "name": "Kanban Board",
+      "workspaceId": "lrno9nf2vbl8xnuta73w7i",
+      "columns": [
+        {
+          "id": "todo",
+          "title": "To Do",
+          "taskIds": []
+        },
+        {
+          "id": "in_progress",
+          "title": "In Progress",
+          "taskIds": []
+        },
+        {
+          "id": "done",
+          "title": "Done",
+          "taskIds": []
+        }
+      ],
+      "columnOrder": [
+        "todo",
+        "in_progress",
+        "done"
+      ],
+      "id": "zdg7b8m7onp2qb1fbgxqn",
+      "createdAt": "2026-07-06T08:39:30.966Z",
+      "updatedAt": "2026-07-06T08:39:30.966Z"
+    }
+  ],
+  "tasks": [],
+  "activities": [
+    {
+      "boardId": "zdg7b8m7onp2qb1fbgxqn",
+      "userId": "sbj3ljbqmkss3rvaae6qlk",
+      "username": "Aditya",
+      "text": "created workspace \"Aditya\" and initialized board \"Kanban Board\"",
+      "id": "tiagp66y1sa2ipj2xpi7ke",
+      "createdAt": "2026-07-06T08:39:30.969Z"
+    }
+  ]
+}

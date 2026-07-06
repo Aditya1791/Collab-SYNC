@@ -1,0 +1,6 @@
+{
+  "name": "Collaborative Workspace",
+  "description": "An enterprise-grade real-time collaborative Kanban board (like Trello or Asana) with optimistic drag-and-drop state updates, multi-client Socket.io synchronization, workspaces, checklists, team invitation, and board activity logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
