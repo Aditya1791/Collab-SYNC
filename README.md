@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <br/>
 
@@ -359,7 +359,16 @@ MIT © [Aditya](https://github.com/Aditya1791)
 
 **Built with passion. Designed with purpose.**
 
-If Collab-SYNC helps your team, consider giving it a ⭐
+If Collab-SYNC helps your team, consider giving it a ⭐ or supporting the project!
+
+<br/>
+
+<a href="public/Aditya%20Ranjan.jpeg" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" />
+</a>
+
+<br/>
+<br/>
 
 [![GitHub stars](https://img.shields.io/github/stars/Aditya1791/Collab-SYNC?style=social)](https://github.com/Aditya1791/Collab-SYNC/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Aditya1791/Collab-SYNC?style=social)](https://github.com/Aditya1791/Collab-SYNC/network/members)
